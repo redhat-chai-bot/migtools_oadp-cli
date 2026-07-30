@@ -22,7 +22,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v5
       with:
-        go-version-file: 'go.mod'
+        go-version: '1.26'
         cache: false
 
     - name: Clean Go environment
@@ -124,7 +124,7 @@ jobs:
     - name: Set up Go (for running tests)
       uses: actions/setup-go@v5
       with:
-        go-version-file: 'go.mod'
+        go-version: '1.26'
         cache: false
 
     - name: Download Linux binaries
@@ -231,7 +231,7 @@ jobs:
     - name: Set up Go (for running tests)
       uses: actions/setup-go@v5
       with:
-        go-version-file: 'go.mod'
+        go-version: '1.26'
         cache: false
 
     - name: Download macOS binaries
@@ -338,7 +338,7 @@ jobs:
     - name: Set up Go (for running tests)
       uses: actions/setup-go@v5
       with:
-        go-version-file: 'go.mod'
+        go-version: '1.26'
         cache: false
 
     - name: Download Windows binaries
